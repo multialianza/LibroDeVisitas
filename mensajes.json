@@ -1,0 +1,22 @@
+[
+  {
+    "usuario": "ivan",
+    "mensaje": "Hola mundo",
+    "fecha": "12/2/2026, 5:46:35 p.m."
+  },
+  {
+    "usuario": "pedro",
+    "mensaje": "Servicio de Aseo",
+    "fecha": "12/2/2026, 5:49:05 p.m."
+  },
+  {
+    "usuario": "maria",
+    "mensaje": "Servicio Mantención",
+    "fecha": "12/2/2026, 6:07:23 p.m."
+  },
+  {
+    "usuario": "Sam",
+    "mensaje": "Servicio Telefónico",
+    "fecha": "12/2/2026, 6:16:06 p.m."
+  }
+]

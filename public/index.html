@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Libro de Visitas ✍️</title>
+    <style>
+        body { font-family: sans-serif; max-width: 600px; margin: 20px auto; padding: 20px; background-color: #dcc9ea; }
+        .mensaje-card { border-bottom: 1px solid #ccc; padding: 10px 0; }
+        form { background: #f4f4f4; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
+        input, textarea { width: 100%; margin-bottom: 10px; display: block; }
+
+    </style>
+</head>
+<body>
+    <h1>Libro de Visitas 📖</h1>
+
+    <form action="/nuevo-mensaje" method="POST">
+        <label for="usuario">Nombre:</label>
+        <input type="text" id="usuario" name="usuario" required>
+        
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        
+        <button type="submit">Enviar Mensaje</button>
+    </form>
+
+    <hr>
+
+    <div id="contenedor-mensajes">
+        </div>
+</body>
+</html>
